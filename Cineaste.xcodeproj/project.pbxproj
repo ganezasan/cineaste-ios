@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1AB32CD124FB702A00080295 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB32CD024FB702A00080295 /* WidgetKit.framework */; };
+		1AB32CD324FB702A00080295 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB32CD224FB702A00080295 /* SwiftUI.framework */; };
+		1AB32CD624FB702A00080295 /* Cineaste_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AB32CD524FB702A00080295 /* Cineaste_Widget.swift */; };
+		1AB32CD924FB702B00080295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AB32CD824FB702B00080295 /* Assets.xcassets */; };
+		1AB32CDB24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */; };
+		1AB32CDC24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */; };
+		1AB32CDF24FB702B00080295 /* Cineaste-WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3F02493B2388782300BA545C /* ShortcutItemRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02493A2388782300BA545C /* ShortcutItemRefresher.swift */; };
 		3F02493D238893C100BA545C /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02493C238893C100BA545C /* MovieTests.swift */; };
 		3F0349042383446D00F56DCF /* SearchMoviesCellSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0349032383446D00F56DCF /* SearchMoviesCellSnapshotTests.swift */; };
@@ -164,6 +171,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1AB32CDD24FB702B00080295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AE25941F9531E20067F5F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB32CCD24FB702A00080295;
+			remoteInfo = "Cineaste-WidgetExtension";
+		};
 		3F450B39236C6EF100A59F1E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 95AE25941F9531E20067F5F5 /* Project object */;
@@ -187,7 +201,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1AB32CE024FB702B00080295 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AB32CDF24FB702B00080295 /* Cineaste-WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Cineaste-WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AB32CD024FB702A00080295 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		1AB32CD224FB702A00080295 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		1AB32CD524FB702A00080295 /* Cineaste_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cineaste_Widget.swift; sourceTree = "<group>"; };
+		1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Cineaste_Widget.intentdefinition; sourceTree = "<group>"; };
+		1AB32CD824FB702B00080295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AB32CDA24FB702B00080295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F0178F820CD26DC00600DB4 /* String+VariantFittingPresentationWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+VariantFittingPresentationWidth.swift"; sourceTree = "<group>"; };
 		3F0178FA20CD2CBD00600DB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		3F0178FB20CD2D8900600DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -352,6 +387,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1AB32CCB24FB702A00080295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB32CD324FB702A00080295 /* SwiftUI.framework in Frameworks */,
+				1AB32CD124FB702A00080295 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F2408EF203CB88E00EB9141 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -387,6 +431,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AB32CCF24FB702A00080295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB32CD024FB702A00080295 /* WidgetKit.framework */,
+				1AB32CD224FB702A00080295 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AB32CD424FB702A00080295 /* Cineaste-Widget */ = {
+			isa = PBXGroup;
+			children = (
+				1AB32CD524FB702A00080295 /* Cineaste_Widget.swift */,
+				1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */,
+				1AB32CD824FB702B00080295 /* Assets.xcassets */,
+				1AB32CDA24FB702B00080295 /* Info.plist */,
+			);
+			path = "Cineaste-Widget";
+			sourceTree = "<group>";
+		};
 		3F059D481FF3FA9C00D5576B /* Custom UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,6 +685,8 @@
 				3F701B32218640EE0033562B /* CineasteTests */,
 				3F450B35236C6EF100A59F1E /* CineasteSnapshotTests */,
 				3F2408F3203CB88E00EB9141 /* CineasteUITests */,
+				1AB32CD424FB702A00080295 /* Cineaste-Widget */,
+				1AB32CCF24FB702A00080295 /* Frameworks */,
 				95AE259D1F9531E20067F5F5 /* Products */,
 			);
 			indentWidth = 4;
@@ -635,6 +701,7 @@
 				3FF7913720DE274A007B7D37 /* Cineaste App.app */,
 				3F701B31218640EE0033562B /* CineasteTests.xctest */,
 				3F450B34236C6EF100A59F1E /* CineasteSnapshotTests.xctest */,
+				1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -754,6 +821,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1AB32CCD24FB702A00080295 /* Cineaste-WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AB32CE324FB702B00080295 /* Build configuration list for PBXNativeTarget "Cineaste-WidgetExtension" */;
+			buildPhases = (
+				1AB32CCA24FB702A00080295 /* Sources */,
+				1AB32CCB24FB702A00080295 /* Frameworks */,
+				1AB32CCC24FB702A00080295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cineaste-WidgetExtension";
+			productName = "Cineaste-WidgetExtension";
+			productReference = 1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		3F2408F1203CB88E00EB9141 /* CineasteUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F2408F9203CB88E00EB9141 /* Build configuration list for PBXNativeTarget "CineasteUITests" */;
@@ -821,6 +905,7 @@
 				3FF790E520DE274A007B7D37 /* Sources */,
 				3FF7912220DE274A007B7D37 /* Frameworks */,
 				3FF7912420DE274A007B7D37 /* Resources */,
+				1AB32CE024FB702B00080295 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -828,6 +913,7 @@
 				4EA460FE23EAF26A0014B543 /* PBXTargetDependency */,
 				4EA460FC23EAF2660014B543 /* PBXTargetDependency */,
 				4EA460FA23EAF2630014B543 /* PBXTargetDependency */,
+				1AB32CDE24FB702B00080295 /* PBXTargetDependency */,
 			);
 			name = "Cineaste App";
 			packageProductDependencies = (
@@ -845,10 +931,13 @@
 		95AE25941F9531E20067F5F5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1110;
+				LastSwiftUpdateCheck = 1200;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = spacepandas.de;
 				TargetAttributes = {
+					1AB32CCD24FB702A00080295 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					3F2408F1203CB88E00EB9141 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 1020;
@@ -896,11 +985,20 @@
 				3F701B30218640EE0033562B /* CineasteTests */,
 				3F2408F1203CB88E00EB9141 /* CineasteUITests */,
 				3F450B33236C6EF100A59F1E /* CineasteSnapshotTests */,
+				1AB32CCD24FB702A00080295 /* Cineaste-WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1AB32CCC24FB702A00080295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB32CD924FB702B00080295 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F2408F0203CB88E00EB9141 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -988,6 +1086,15 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1AB32CCA24FB702A00080295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AB32CDB24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */,
+				1AB32CD624FB702A00080295 /* Cineaste_Widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3F2408EE203CB88E00EB9141 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1135,6 +1242,7 @@
 				3FF7911C20DE274A007B7D37 /* String+DateFormatter.swift in Sources */,
 				4EB512062268BAEA00CBDC7E /* JSONCoders.swift in Sources */,
 				3FA48FA620FA859E002F7665 /* MoviesViewController+3DTouch.swift in Sources */,
+				1AB32CDC24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */,
 				3FF7911D20DE274A007B7D37 /* MoviesViewController.swift in Sources */,
 				3FFEC6CD236DCF91005E7EED /* Storyboard.swift in Sources */,
 				3FEEE8E9222BE94C00EB1649 /* UIFont+SymbolicTraits.swift in Sources */,
@@ -1152,6 +1260,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1AB32CDE24FB702B00080295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB32CCD24FB702A00080295 /* Cineaste-WidgetExtension */;
+			targetProxy = 1AB32CDD24FB702B00080295 /* PBXContainerItemProxy */;
+		};
 		3F450B3A236C6EF100A59F1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 3FF790E120DE274A007B7D37 /* Cineaste App */;
@@ -1267,6 +1380,61 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1AB32CE124FB702B00080295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BRH3DQ7CT;
+				INFOPLIST_FILE = "Cineaste-Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.spacepandas.ios.cineaste-dev.Cineaste-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AB32CE224FB702B00080295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8BRH3DQ7CT;
+				INFOPLIST_FILE = "Cineaste-Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.spacepandas.ios.cineaste.Cineaste-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		3F2408FA203CB88E00EB9141 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1398,6 +1566,7 @@
 		3FF7913520DE274A007B7D37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1421,6 +1590,7 @@
 		3FF7913620DE274A007B7D37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -1557,6 +1727,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1AB32CE324FB702B00080295 /* Build configuration list for PBXNativeTarget "Cineaste-WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AB32CE124FB702B00080295 /* Debug */,
+				1AB32CE224FB702B00080295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3F2408F9203CB88E00EB9141 /* Build configuration list for PBXNativeTarget "CineasteUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
