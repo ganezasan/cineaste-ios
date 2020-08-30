@@ -37,13 +37,13 @@ private extension Persistence {
 
 private extension FileManager {
     var documentsDirectory: URL {
+        #warning("Properly migrate the data to the app group folder")
         // swiftlint:disable:next force_try
-        return try! url(
-            for: .documentDirectory,
-            in: .userDomainMask,
-            appropriateFor: nil,
-            create: false
-        )
+        #if DEBUG
+        return containerURL(forSecurityApplicationGroupIdentifier: "group.de.spacepandas.ios.cineaste-dev")!
+        #else
+        return containerURL(forSecurityApplicationGroupIdentifier: "group.de.spacepandas.ios.cineaste")!
+        #endif
     }
 
     var cachesDirectory: URL {

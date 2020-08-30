@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1130"
+   LastUpgradeVersion = "1200"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -43,15 +43,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       language = "en"
       region = "US">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "3FF790E120DE274A007B7D37"
-            BuildableName = "Cineaste App.app"
-            BlueprintName = "Cineaste App"
-            ReferencedContainer = "container:Cineaste.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">

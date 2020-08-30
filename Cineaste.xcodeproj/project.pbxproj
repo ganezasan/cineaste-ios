@@ -14,6 +14,26 @@
 		1AB32CDB24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */; };
 		1AB32CDC24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */; };
 		1AB32CDF24FB702B00080295 /* Cineaste-WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1AB32CE424FB713D00080295 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22920B225A3B5C001D4358 /* AppState.swift */; };
+		1AB32CE524FB714C00080295 /* StoredMovieIDs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3BCAAC22D210AA005BEF12 /* StoredMovieIDs.swift */; };
+		1AB32CE624FB715500080295 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DC320C1F97E5150014E3EA /* Movie.swift */; };
+		1AB32CE724FB718A00080295 /* KeyedDecodingContainerProtocol+Decoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC13E02391C16A0078637B /* KeyedDecodingContainerProtocol+Decoding.swift */; };
+		1AB32CE824FB71A700080295 /* DateFormatter+Cineaste.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8065BB238AE3220087D6EA /* DateFormatter+Cineaste.swift */; };
+		1AB32CE924FB71B600080295 /* WatchState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD9F70222C7A6200DD9248 /* WatchState.swift */; };
+		1AB32CED24FB72A900080295 /* ReSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB32CEC24FB72A900080295 /* ReSwift */; };
+		1AB32CEE24FB72D000080295 /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB512012268B07600CBDC7E /* AppReducer.swift */; };
+		1AB32CEF24FB72D400080295 /* MovieReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22920F225A3CDE001D4358 /* MovieReducer.swift */; };
+		1AB32CF024FB72D900080295 /* SelectionReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB512032268B1FD00CBDC7E /* SelectionReducer.swift */; };
+		1AB32CF124FB72DD00080295 /* SearchReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E961249E691F00CA472F /* SearchReducer.swift */; };
+		1AB32CF224FB72EC00080295 /* MovieAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F22920D225A3C4B001D4358 /* MovieAction.swift */; };
+		1AB32CF324FB72EC00080295 /* SelectionAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1AA742385E4EA00E24C16 /* SelectionAction.swift */; };
+		1AB32CF424FB72EC00080295 /* SearchAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF3E95F249E687600CA472F /* SearchAction.swift */; };
+		1AB32CF524FB72F500080295 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED2FC802266F353007BDE06 /* Persistence.swift */; };
+		1AB32CF624FB72FE00080295 /* JSONCoders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EB512052268BAEA00CBDC7E /* JSONCoders.swift */; };
+		1AB32CF724FB730800080295 /* ImportExportObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE49553209DD33A006CD0D3 /* ImportExportObject.swift */; };
+		1AB32CF824FB731300080295 /* Date+Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBD8F911FF3FC5B00AD5F02 /* Date+Formatter.swift */; };
+		1AB32CF924FB734F00080295 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F229211225A40BC001D4358 /* Store.swift */; };
+		1AB32CFB24FB735D00080295 /* ReSwift-Thunk in Frameworks */ = {isa = PBXBuildFile; productRef = 1AB32CFA24FB735D00080295 /* ReSwift-Thunk */; };
 		3F02493B2388782300BA545C /* ShortcutItemRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02493A2388782300BA545C /* ShortcutItemRefresher.swift */; };
 		3F02493D238893C100BA545C /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F02493C238893C100BA545C /* MovieTests.swift */; };
 		3F0349042383446D00F56DCF /* SearchMoviesCellSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0349032383446D00F56DCF /* SearchMoviesCellSnapshotTests.swift */; };
@@ -223,6 +243,8 @@
 		1AB32CD724FB702A00080295 /* Cineaste_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Cineaste_Widget.intentdefinition; sourceTree = "<group>"; };
 		1AB32CD824FB702B00080295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AB32CDA24FB702B00080295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AB32CFD24FB849C00080295 /* Cineaste App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Cineaste App.entitlements"; sourceTree = "<group>"; };
+		1AB32CFE24FB84F800080295 /* Cineaste App Dev.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = "Cineaste App Dev.entitlements"; sourceTree = "<group>"; };
 		3F0178F820CD26DC00600DB4 /* String+VariantFittingPresentationWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+VariantFittingPresentationWidth.swift"; sourceTree = "<group>"; };
 		3F0178FA20CD2CBD00600DB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		3F0178FB20CD2D8900600DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = Base; path = Base.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
@@ -391,6 +413,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB32CFB24FB735D00080295 /* ReSwift-Thunk in Frameworks */,
+				1AB32CED24FB72A900080295 /* ReSwift in Frameworks */,
 				1AB32CD324FB702A00080295 /* SwiftUI.framework in Frameworks */,
 				1AB32CD124FB702A00080295 /* WidgetKit.framework in Frameworks */,
 			);
@@ -681,6 +705,8 @@
 		95AE25931F9531E20067F5F5 = {
 			isa = PBXGroup;
 			children = (
+				1AB32CFE24FB84F800080295 /* Cineaste App Dev.entitlements */,
+				1AB32CFD24FB849C00080295 /* Cineaste App.entitlements */,
 				95AE259E1F9531E20067F5F5 /* Cineaste */,
 				3F701B32218640EE0033562B /* CineasteTests */,
 				3F450B35236C6EF100A59F1E /* CineasteSnapshotTests */,
@@ -832,8 +858,13 @@
 			buildRules = (
 			);
 			dependencies = (
+				1AB32CEB24FB71DA00080295 /* PBXTargetDependency */,
 			);
 			name = "Cineaste-WidgetExtension";
+			packageProductDependencies = (
+				1AB32CEC24FB72A900080295 /* ReSwift */,
+				1AB32CFA24FB735D00080295 /* ReSwift-Thunk */,
+			);
 			productName = "Cineaste-WidgetExtension";
 			productReference = 1AB32CCE24FB702A00080295 /* Cineaste-WidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -932,7 +963,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1200;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = spacepandas.de;
 				TargetAttributes = {
 					1AB32CCD24FB702A00080295 = {
@@ -1090,8 +1121,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AB32CF024FB72D900080295 /* SelectionReducer.swift in Sources */,
+				1AB32CF524FB72F500080295 /* Persistence.swift in Sources */,
+				1AB32CE524FB714C00080295 /* StoredMovieIDs.swift in Sources */,
+				1AB32CEF24FB72D400080295 /* MovieReducer.swift in Sources */,
+				1AB32CE424FB713D00080295 /* AppState.swift in Sources */,
+				1AB32CF624FB72FE00080295 /* JSONCoders.swift in Sources */,
+				1AB32CE724FB718A00080295 /* KeyedDecodingContainerProtocol+Decoding.swift in Sources */,
+				1AB32CF424FB72EC00080295 /* SearchAction.swift in Sources */,
+				1AB32CEE24FB72D000080295 /* AppReducer.swift in Sources */,
+				1AB32CE924FB71B600080295 /* WatchState.swift in Sources */,
+				1AB32CE824FB71A700080295 /* DateFormatter+Cineaste.swift in Sources */,
+				1AB32CF324FB72EC00080295 /* SelectionAction.swift in Sources */,
+				1AB32CF224FB72EC00080295 /* MovieAction.swift in Sources */,
+				1AB32CF724FB730800080295 /* ImportExportObject.swift in Sources */,
 				1AB32CDB24FB702B00080295 /* Cineaste_Widget.intentdefinition in Sources */,
+				1AB32CF924FB734F00080295 /* Store.swift in Sources */,
 				1AB32CD624FB702A00080295 /* Cineaste_Widget.swift in Sources */,
+				1AB32CF124FB72DD00080295 /* SearchReducer.swift in Sources */,
+				1AB32CF824FB731300080295 /* Date+Formatter.swift in Sources */,
+				1AB32CE624FB715500080295 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1264,6 +1313,10 @@
 			isa = PBXTargetDependency;
 			target = 1AB32CCD24FB702A00080295 /* Cineaste-WidgetExtension */;
 			targetProxy = 1AB32CDD24FB702B00080295 /* PBXContainerItemProxy */;
+		};
+		1AB32CEB24FB71DA00080295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 1AB32CEA24FB71DA00080295 /* ReSwift */;
 		};
 		3F450B3A236C6EF100A59F1E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1569,11 +1622,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Dev";
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Cineaste App Dev.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 634;
-				DEVELOPMENT_TEAM = 8BRH3DQ7CT;
+				DEVELOPMENT_TEAM = D75TXLN9FZ;
 				INFOPLIST_FILE = Cineaste/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1593,11 +1647,12 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Cineaste App.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 634;
-				DEVELOPMENT_TEAM = 8BRH3DQ7CT;
+				DEVELOPMENT_TEAM = D75TXLN9FZ;
 				INFOPLIST_FILE = Cineaste/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1636,6 +1691,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1696,6 +1752,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1819,6 +1876,21 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1AB32CEA24FB71DA00080295 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EA460F023EAF15B0014B543 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		1AB32CEC24FB72A900080295 /* ReSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EA460F023EAF15B0014B543 /* XCRemoteSwiftPackageReference "ReSwift" */;
+			productName = ReSwift;
+		};
+		1AB32CFA24FB735D00080295 /* ReSwift-Thunk */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4EA460F323EAF1760014B543 /* XCRemoteSwiftPackageReference "ReSwift-Thunk" */;
+			productName = "ReSwift-Thunk";
+		};
 		4EA460EE23EAF0E50014B543 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 4EA460ED23EAF0E50014B543 /* XCRemoteSwiftPackageReference "Kingfisher" */;
